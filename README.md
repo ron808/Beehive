@@ -1,2 +1,0 @@
-# Beehive
-teach-stud interaction
