@@ -11,7 +11,10 @@ import Profile from './components/Profile';
 import Ask from './components/Ask';
 import Teacherslist from './components/Teacherslist';
 import Feed from './components/Feed';
+<<<<<<< HEAD
 import Answer from './components/Answer';
+=======
+>>>>>>> origin/main
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 
 
@@ -111,6 +114,7 @@ function App() {
       </Route>
 
 
+<<<<<<< HEAD
       <Route path="/answer" exact>
       <div>
         <Navbar />
@@ -129,6 +133,8 @@ function App() {
       </Route>
 
 
+=======
+>>>>>>> origin/main
 
     </Switch>
 </Router>

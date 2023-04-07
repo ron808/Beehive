@@ -4,6 +4,7 @@
   border: 0;
   font-family: 'Roboto', sans-serif;
 }
+<<<<<<< HEAD
 
 *::selection {
   background-color: #c3ee17; /* Change the background color */
@@ -32,6 +33,8 @@ textarea::placeholder{
 :focus-visible {
   outline: -webkit-focus-ring-color auto 0px;
 }
+=======
+>>>>>>> origin/main
 a{
   text-decoration: none;
 
@@ -228,15 +231,22 @@ transition: all 0.3s;
 }
 .koi_nai > p{
   transition: all 0.2ms linear;
+<<<<<<< HEAD
   width: fit-content;
+=======
+>>>>>>> origin/main
 }
 .koi_nai > p:hover{
   text-decoration: underline;
   text-decoration-thickness: 4%;
 }
+<<<<<<< HEAD
 .mixitup{
   width: fit-content;
 }
+=======
+
+>>>>>>> origin/main
 .contact_text{
   font-weight: 100;
   font-size: larger;
@@ -265,13 +275,18 @@ transition: all 0.3s;
 }
 
 .emails> h1{
+<<<<<<< HEAD
   transform: translate(38rem, 2.5rem);
+=======
+  transform: translate(39rem, 2.5rem);
+>>>>>>> origin/main
 }
 .details_emails{
   transform: translate(38rem, 5rem);
 }
 .details_emails >p{
   margin-bottom: 1rem;
+<<<<<<< HEAD
   width: fit-content;
 }
 .details_emails >h2{
@@ -283,6 +298,8 @@ transition: all 0.3s;
   width: 2rem;
   height: 2rem;
   transform: translate(35rem,4.8rem);
+=======
+>>>>>>> origin/main
 }
 
 
@@ -638,6 +655,7 @@ label > p{
   padding: 0.5rem;
 }
 
+<<<<<<< HEAD
 .dolota > .searchWrapper{
   background-color: #fff;
   border: 0;
@@ -659,12 +677,15 @@ label > p{
   font-weight: 100;
   color: #221C43;
 }
+=======
+>>>>>>> origin/main
 .submit_in_hole{
   padding: 0.7rem;
   width: 10rem;
   transform: translateX(27rem);
   border-radius: 1rem;
   margin-bottom: 10px;
+<<<<<<< HEAD
   transition: 200ms all linear;
 
 }
@@ -675,6 +696,10 @@ label > p{
   color: white;
   transform: translateX(27rem) scale(1.2);
 }
+=======
+}
+
+>>>>>>> origin/main
 
 
 
@@ -910,6 +935,7 @@ label > p{
   font-size: 1.5rem;
   font-weight: 100;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+<<<<<<< HEAD
   transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
@@ -918,6 +944,9 @@ label > p{
   cursor:grab;
 }
 
+=======
+}
+>>>>>>> origin/main
 .teacherslist{
   width: 100vw;
   height: 100rem;
@@ -925,7 +954,11 @@ label > p{
 background-attachment: fixed;
 }
 .teacherslist> div >h2{
+<<<<<<< HEAD
   /* font-weight: 100; */
+=======
+  font-weight: 100;
+>>>>>>> origin/main
   /* transform: translate(4rem,3rem); */
   width: fit-content;
   width: -moz-fit-content;
@@ -936,12 +969,15 @@ background-attachment: fixed;
   width: 100vw;
 }
 
+<<<<<<< HEAD
 .heading_teacher > h2{
   font-weight: 100;
   text-decoration: underline;
   transform: translate(2rem,1rem);
 }
 
+=======
+>>>>>>> origin/main
 .frame{
   width: 20vw;
   height: 30vh;
@@ -949,6 +985,7 @@ background-attachment: fixed;
   background-color: #646464b2;
   margin: 2rem 1rem 2rem 2rem;
   transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+<<<<<<< HEAD
   color:#221C43;
   font-weight: 100;
 }
@@ -967,6 +1004,8 @@ background-attachment: fixed;
 }
 .frame>h3{
   font-weight: 100;
+=======
+>>>>>>> origin/main
 }
 
 .frame:hover{
@@ -974,7 +1013,10 @@ transform: scale(1.1);
 background: rgba(255, 255, 255, 0.2);
 backdrop-filter: blur(8px);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 .teacherflex{
   display: inline-grid;
   grid-template-columns: auto auto auto auto;
@@ -987,13 +1029,17 @@ backdrop-filter: blur(8px);
   /* z-index: 99; */
   border: 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 .frame > h3{
   position: relative;
   transform: translate(20px,-40px);
   width: fit-content;
   width: -moz-fit-content;
 }
+<<<<<<< HEAD
 .back_main{
   width: 100vw;
   height: 92vh;
@@ -1293,3 +1339,20 @@ backdrop-filter: blur(8px);
   overflow-x: auto;
   white-space: pre-wrap;
 }
+=======
+
+
+.back_main{
+  width: 100vw;
+  height: 100vh;
+}
+.why_not{
+  height: 1000px;
+  width: 1000px;
+  /* background-image: url(../public/images/sunflower.png); */
+  /* background-attachment: fixed; */
+}
+.flex_wala{
+  
+}
+>>>>>>> origin/main

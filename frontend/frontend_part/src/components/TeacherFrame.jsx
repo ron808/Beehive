@@ -12,7 +12,11 @@ function TeacherFrame(props){
     return(
         <Link to="/Profile" onClick={paceur} href='#'>
             <div className="frame">
+<<<<<<< HEAD
                 <img className="imageofme" src={"https://img.freepik.com/premium-vector/cartoon-illustration-thai-female-teacher-holding-stick-front-blackboard_49924-213.jpg?w=2000"} width="228rem" height="216rem" alt="pop" />
+=======
+                <img src={"https://img.freepik.com/premium-vector/cartoon-illustration-thai-female-teacher-holding-stick-front-blackboard_49924-213.jpg?w=2000"} width="228rem" height="216rem" alt="pop" />
+>>>>>>> origin/main
                 <h3>{props.name}</h3>
             </div>
         </Link>

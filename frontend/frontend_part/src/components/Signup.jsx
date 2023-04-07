@@ -1,6 +1,9 @@
 import React from 'react';
 import SignupForm from './SignupForm';
+<<<<<<< HEAD
 import { useState,useEffect } from 'react';
+=======
+>>>>>>> origin/main
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
 
 function namea(){
@@ -8,6 +11,7 @@ function namea(){
 }
 
 function Signup() {
+<<<<<<< HEAD
     const [isactive,setIsActive] = useState(false);
 
 
@@ -22,6 +26,8 @@ function Signup() {
         };
       });
     
+=======
+>>>>>>> origin/main
   return (
   <div>
   <div className='signup'>
@@ -55,7 +61,10 @@ function Signup() {
         <div className="cloud"></div>
     </div>
 </div>
+<<<<<<< HEAD
     <div className={isactive?'scrolldown':'icon_scroll'}><img src ="/images/scroll-down.png" height="50px" width="50px"/></div>
+=======
+>>>>>>> origin/main
     </div>
 
 

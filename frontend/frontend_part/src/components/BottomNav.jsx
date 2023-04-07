@@ -1,13 +1,19 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
+<<<<<<< HEAD
 import ScrollToTop from "./ScrollToTop";
+=======
+>>>>>>> origin/main
 
 
 
 function BottomNav() {
   return (
     <div className='bottom_nav flex'>
+<<<<<<< HEAD
     <ScrollToTop />
+=======
+>>>>>>> origin/main
         <div className='border one botton_logo'><img height={230} width={550} src='./images/beeh.svg'></img></div>
         <div className='flex border two'>
             <div className='border three flex_coloumn'>

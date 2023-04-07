@@ -80,6 +80,7 @@ const teachers = [
 ]
 const students = [
     {
+<<<<<<< HEAD
         name: "Anshu Yadav",
         mail: "xya@gmail.com",
         password:"hehe",
@@ -102,6 +103,30 @@ const students = [
         tags: ["Web dev"],
         data:"I am Roshan Kumar Sinha, a Web Developer with a passion for problem-solving and a keen understanding of data structures and algorithms. I have extensive knowledge of web development frameworks. With my strong skillset and experience, I am confident that I can bring value to any project or team.",
         img:"/images/roshan.jpg"
+=======
+        name: "Anshu",
+        mail: "xya@gmail.com",
+        password:"hehe",
+        tags: ["Web dev"],
+        data:"sjaknw kajwnd awn fhjak awjh bjkaw wbkjlwea cajkwbcliue cliuebwila siubiuw fejskbfiua fjebfja jhbfuie fjabeuif jeh afiubiaf aiubfiau",
+        img:"https://www.marketingtool.online/en/face-generator/img/faces/avatar-1187250d13f5c15840e1f94492dcd0a5.jpg"
+    },
+    {
+        name: "Rohit",
+        mail: "xya@gmail.com",
+        password:"hehe",
+        tags: ["Web dev"],
+        data:"sjaknw kajwnd awn fhjak awjh bjkaw wbkjlwea cajkwbcliue cliuebwila siubiuw fejskbfiua fjebfja jhbfuie fjabeuif jeh afiubiaf aiubfiau",
+        img:"https://www.marketingtool.online/en/face-generator/img/faces/avatar-1187250d13f5c15840e1f94492dcd0a5.jpg"
+    },
+    {
+        name: "Roshan",
+        mail: "xya@gmail.com",
+        password:"hehe",
+        tags: ["Web dev"],
+        data:"sjaknw kajwnd awn fhjak awjh bjkaw wbkjlwea cajkwbcliue cliuebwila siubiuw fejskbfiua fjebfja jhbfuie fjabeuif jeh afiubiaf aiubfiau",
+        img:"https://www.marketingtool.online/en/face-generator/img/faces/avatar-1187250d13f5c15840e1f94492dcd0a5.jpg"
+>>>>>>> origin/main
     }
 ]
 const question = [

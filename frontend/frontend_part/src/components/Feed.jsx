@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import { Loader } from "next/dynamic";
 import { useState, useEffect, useLayoutEffect,useRef} from "react";
@@ -109,6 +110,25 @@ const Feed = ()=>{
 
         </div>
     )
+=======
+
+const Feed = ()=>{
+    return(
+        <div className="back_main">
+
+        <div className="flex_wala">
+            <div className="top_rated">
+                <h1>Top</h1>
+            </div>
+
+            <div className="ques_ans">
+                <h1>Question</h1>
+            </div>
+        </div>
+            <div className="why_not"></div>
+        </div>
+    );
+>>>>>>> origin/main
 }
 
 export default Feed;

@@ -20,8 +20,13 @@ function About(){
             <div className="about_description">
             <div className="bumpum">
             <Description name={students[0].name} para={students[0].data} img={students[0].img}/>
+<<<<<<< HEAD
             <Description name={students[1].name} para={students[1].data} img={students[1].img}/>
             <Description name={students[2].name} para={students[2].data} img={students[2].img}/>
+=======
+            <Description name={students[1].name} para={students[0].data} img={students[0].img}/>
+            <Description name={students[2].name} para={students[0].data} img={students[0].img}/>
+>>>>>>> origin/main
 
             </div>
 

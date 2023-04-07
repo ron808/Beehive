@@ -2,7 +2,11 @@ import React from "react";
 import { useState } from "react";
 import {  Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+<<<<<<< HEAD
 import ScrollToTop from "./ScrollToTop";
+=======
+
+>>>>>>> origin/main
 
 
 function LoginForm(){
@@ -63,6 +67,34 @@ function LoginForm(){
             timeout();
         }
 
+<<<<<<< HEAD
+=======
+        
+        // if(main.includes("not found")){
+        //     console.log(main);
+        //     alert(main);
+        // }
+        // else{
+        //     console.log(main);
+        //     timeout();
+        // }
+        
+        // if(main){
+        //     console.log(main);
+        //     alert(main);
+        //     console.log("first")
+        // }
+        // else if(!main){
+        //     timeout();
+        //     // console.log(message)
+        //     console.log("second")
+        // }
+        // else{
+        //     // console.log(message)
+        //     console.log("third")
+        // }
+
+>>>>>>> origin/main
     }
 
 

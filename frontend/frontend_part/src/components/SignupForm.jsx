@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Multiselect from 'multiselect-react-dropdown';
 import { Redirect } from "react-router-dom";
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
 const select = [
@@ -35,6 +36,9 @@ const select = [
     "CSS3", // Added item
     "WordPress", // Added item
   ];
+=======
+const select = ["Web development","IOT","Machine Learning","Block Chain","Network Security" ,"computer network", "big data"]
+>>>>>>> origin/main
 
 
 function SignupForm(){
@@ -72,7 +76,10 @@ function SignupForm(){
         await fetch("/signup",data)
         .then(res => res.json())
         .then(data => console.log(data))
+<<<<<<< HEAD
         .then(window.location.replace('/feed'))
+=======
+>>>>>>> origin/main
     }
 
     return(
@@ -104,11 +111,16 @@ function SignupForm(){
                         options={select}
                         />
                 </label>
+<<<<<<< HEAD
                 <ScrollToTop />
                 <button onClick={mutant} className="submit_in_hole">Submit</button>
             </form>
             <div className="already">Already a member?</div>
             <button className="already_butt"><Link to="/login">Sign In</Link></button>
+=======
+                <button onClick={mutant} className="submit_in_hole">Submit</button>
+            </form>
+>>>>>>> origin/main
         </div>
     );
 }

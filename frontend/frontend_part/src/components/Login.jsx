@@ -1,5 +1,6 @@
 import React from "react";
 import LoginForm from "./LoginForm";
+<<<<<<< HEAD
 import { useState,useEffect } from 'react';
 
 
@@ -21,6 +22,13 @@ function Login(){
     return (
         <div>
         <div className='login'>
+=======
+
+function Login(){
+    return (
+        <div>
+<div className='login'>
+>>>>>>> origin/main
         <h1>Welcome Back</h1>
 
         
@@ -36,7 +44,10 @@ function Login(){
 
 
         </div>
+<<<<<<< HEAD
         <div className={isactive?'scrolldown':'icon_scroll'}><img src ="/images/scroll-down.png" height="50px" width="50px"/></div>
+=======
+>>>>>>> origin/main
     </div>
 
 

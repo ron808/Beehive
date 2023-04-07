@@ -5,10 +5,14 @@ const app = express();
 var assert = require('assert');
 
 
+<<<<<<< HEAD
 // const dotenv = require('dotenv');
 // dotenv.config();
 
 // const port = `${process.env.BACKEND_PORT}`;
+=======
+
+>>>>>>> origin/main
 // app.use(bodyParser.urlencoded({
 //     extended: true
 // }));
@@ -228,6 +232,7 @@ app.post("/login",async (req,res)=>{
 
 
 //feed
+<<<<<<< HEAD
 // app.post("/feed", (req,res)=>{
 //     const teach =  Question.find({}).exec();
 //     console.log(teach);
@@ -245,11 +250,14 @@ app.get("/feed", (req,res)=>{
     })
 })
 
+=======
+>>>>>>> origin/main
 
 
 
 //TeacherList
 
+<<<<<<< HEAD
 // app.post("/teacherslist",async (req,res)=>{
 //     const teach = await Teacher.find({}).exec();
 //     console.log(teach);
@@ -262,6 +270,12 @@ app.get("/teacherslist",(req,res)=>{
         res.json(result);
         }
     )
+=======
+app.post("/teacherslist",async (req,res)=>{
+    const teach = await Teacher.find({}).exec();
+    console.log(teach);
+      res.json(teach);
+>>>>>>> origin/main
 })
 
 //AskQuestion
@@ -271,6 +285,7 @@ app.get("/teacherslist",(req,res)=>{
 //     res.sendFile(__dirname+'/public/index.html')
 // })
 app.post("/ask",(req,res)=>{
+<<<<<<< HEAD
     // function newa(){
     //     res.redirect("/ask");
     // }
@@ -278,6 +293,14 @@ app.post("/ask",(req,res)=>{
     console.log(question,tags);
 
     try {
+=======
+    function newa(){
+        res.redirect("/ask");
+    }
+    const {question,tags} = req.body;
+    console.log(question,tags);
+
+>>>>>>> origin/main
     const new_que = new Question({
         question:question,
         solved:false,
@@ -285,6 +308,7 @@ app.post("/ask",(req,res)=>{
     })
     new_que.save();
 
+<<<<<<< HEAD
     res.status(200).json({ success: true, message: 'Data added successfully', data: new_que });
 } catch (error) {
   res.status(500).json({ success: false, message: 'Failed to add data', error: error.message });
@@ -322,6 +346,11 @@ app.post("/answer",(req,res)=>{
 
 
 
+=======
+    setTimeout(newa,2000)
+})
+
+>>>>>>> origin/main
 
 app.listen(5000, ()=>{
     console.log("Server is running in 5000");
